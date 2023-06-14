@@ -12,18 +12,6 @@
     // @run-at       document-start
     // @license MIT
     // ==/UserScript==
-
-
-
-    // Mensaje importante:
-    // Código ÑAPA: el código es bastante ñapa y hecho a toda leche, para uso personal. Pero si quieres echar una mano. Contacta conmigo! ;)
-    //        - ñapa: se usa Jquery, pero se puede quitar perfectamente.
-    //        - ñapa: la mayoría del código es para editar estilos, pero se hace a lo bruto, hay que cambiar el enfoque.
-    //        - ñapa: se ejecuta el script varias veces para asegurar en vez de poner un listener.
-    // Código LEGACY: se ha ido añadiendo nuevo código, pero no hemos mantenido el código viejo (hay muchas líneas que seguro que ya no son necesarias).
-    //
-    // Lo dicho, si quieres ayudar a mejorar el código o añadir funcionalidad, contacta sin problema.
-
     (function() {
       "use strict";
 
@@ -80,10 +68,6 @@
             // PaginaNoticia > LATERAL derecho ENTERO!
             $(".ue-c-article__share-tools").remove(); //botones de compartir
         }
-
-
-
-
 
         function cleanElpais() {
 
